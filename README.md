@@ -1,2 +1,3 @@
 # minimalist-dude
-Minimalist dude template
+
+Minimalist dude template by @adelriosantiago
