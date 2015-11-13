@@ -95,8 +95,8 @@ a:hover { text-decoration: underline; }
     position: absolute;
     font-size: 0.75em;
     color: #454545;
-    top: 16px;
-    left: 50px;
+    top: 26px;
+    left: 60px;
     width: 100px;
 }
 .progress-tracker ul li.active i {
