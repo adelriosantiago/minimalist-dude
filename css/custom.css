@@ -148,6 +148,24 @@ a:hover { text-decoration: underline; }
 .fa.fa-envelope-o:hover {
     color: #f8b049;
 }
+.fa.fa-dribbble:hover {
+    color: #000;
+}
+.fa.fa-pinterest:hover {
+    color: #000;
+}
+.fa.fa-tumblr:hover {
+    color: #000;
+}
+.fa.fa-youtube:hover {
+    color: #000;
+}
+.fa.fa-angellist:hover {
+    color: #000;
+}
+.fa.fa-behance:hover {
+    color: #000;
+}
 
 /* Sections */
 div.separator {
