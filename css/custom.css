@@ -14,7 +14,7 @@ h4,
 h5,
 p,
 h6 {
-    font-family: 'Rambla', 'Raleway', 'Source Sans Pro', sans-serif;
+    font-family: 'Rambla', 'Raleway', 'Lato', 'Source Sans Pro', sans-serif;
 }
 
 /* Positions */
@@ -60,7 +60,10 @@ h6 {
 .line-right { border-right: 1px solid #CACCCC; }
 
 /* Links */
-a { text-decoration: none; }
+a {
+	text-decoration: none;
+	font-family: 'Rambla';
+}
 a:hover { text-decoration: underline; }
 
 /* Vertically always centered div */
