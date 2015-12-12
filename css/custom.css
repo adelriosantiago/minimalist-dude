@@ -108,6 +108,11 @@ a:hover { text-decoration: underline; }
 }
 
 /* Icons */
+
+i.fa.fa-cx {
+	font-size: 6em;	
+}
+
 .fa {
     color: gray;
     margin: 10px;
@@ -243,7 +248,7 @@ section.fullpage {
                 font-size: 2.5em;
             }
         }
-
+	
 #section_social {} 
 
     #section_social div.boxicon {
@@ -253,7 +258,6 @@ section.fullpage {
         margin: 30px;
         text-align: center;
         display: block;
-        font-size: 7em;
     }
     @media only screen and (max-width: 767px) {
         #section_social div.boxicon i {
