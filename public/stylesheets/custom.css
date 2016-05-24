@@ -118,7 +118,7 @@ a:hover { text-decoration: underline; }
     text-align: center;
 }
     .pt-circle i {
-        color: #d2d2d2;
+        color: #AAAAAA;
         font-size: 3em;
     }
 .pt-description {
@@ -380,9 +380,9 @@ section.fullpage {
     background: #ffffff;
     max-height: 200px;
     position: relative;
-    -webkit-box-shadow: 0px 0px 8px #d0d0d0;
-    -moz-box-shadow: 0px 0px 8px #d0d0d0;
-    box-shadow: 0px 0px 8px #d0d0d0;
+    -webkit-box-shadow: 0 0 6px #dedede;
+    -moz-box-shadow: 0 0 6px #dedede;
+    box-shadow: 0 0 6px #dedede;
     overflow: hidden;
     margin: 50px 0;
 }
