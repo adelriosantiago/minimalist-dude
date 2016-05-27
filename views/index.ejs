@@ -4,19 +4,19 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Minimalist dude Node.js resume template</title>
-        <script src="javascripts/vendor/modernizr.js"></script>
+        <script src="/javascripts/vendor/modernizr.js"></script>
 
         <!-- CSS's -->
-        <link rel="stylesheet" href="stylesheets/foundation.css" />
-        <link rel="stylesheet" href="stylesheets/custom.css" />
-        <link rel="stylesheet" type="text/css" href="stylesheets/jquery.progresstracker.css">
+        <link rel="stylesheet" href="/stylesheets/foundation.css" />
+        <link rel="stylesheet" href="/stylesheets/custom.css" />
+        <link rel="stylesheet" type="text/css" href="/stylesheets/jquery.progresstracker.css">
 
         <!-- Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Lato:300,100,100italic,300italic' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Rambla:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700,500' rel='stylesheet' type='text/css'/>
         <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400" rel="stylesheet"/>
-        <link rel="stylesheet" href="stylesheets/font-awesome.min.css"/>
+        <link rel="stylesheet" href="/stylesheets/font-awesome.min.css"/>
     </head>
     <body id='main-spa'>
         <section id='section_main' class='fullpage pt-section white' data-name="Home">
@@ -31,7 +31,7 @@
                                 <h1 id='sur'>dude</h1>
                             </div>
                             <div class='margin-top-large'>
-                                <h5 class='text-center'>The minimalist web template</h5>
+                                <h5 class='text-center'>The minimalist web resume template</h5>
                             </div>
                         </div>
                     </div>
@@ -79,12 +79,29 @@
 				</div> -->
 			</div>
         </section>
+		
+        <div class="or-spacer">
+            <div class="mask"></div>
+        </div>		
         
+		<section id='section_quote' class='pt-section' data-name="Info">
+            <div class="row">
+				<div class="large-8 large-centered columns boxicon">
+					<div class='text-center'>
+						<div class='margin-top-large margin-bottom-large'>
+							<i class="fa fa-cx fa-circle"></i>
+							<p class='margin-top-med'>Less is more</p>
+						</div>						
+					</div>
+				</div>
+			</div>
+        </section>
+		
         <div class="or-spacer">
             <div class="mask"></div>
         </div>
 		
-		<section id='section_blog' class='pt-section' data-name="Blog">
+		<section id='section_blog' class='pt-section gray' data-name="Blog">
             <span class='pt-custom-content'><i class="fa fa-2x fa-book"></i></span>
             <div class="row">
                 <div class="large-10 medium-10 small-10 large-centered medium-centered small-centered columns boxicon">
@@ -99,28 +116,15 @@
                             <div class="post-entry">
                                 <p>Lorem ipsum dolor sit amet, te qui ludus percipit invidunt. Ea dicta legimus mea, diceret deserunt concludaturque ad qui.</p>
                             </div>
-                            <!-- <div class="post-permalink">
-                                <a href="/little-about-this-theme/">Continue Reading...</a>
-                            </div> -->
-                            <!-- <div class="post-meta">
-                                <span class="date margin-left">
-                                    <i class="fa fa-calendar-o"></i>
-                                    Jul, 2015
-                                </span>
-                                <span class="tags">
-                                    <i class="fa fa-tag"></i>
-                                    <a href="/little-about-this-theme/#disqus_thread">writing</a><span>&nbsp;</span><a href="/little-about-this-theme/#disqus_thread">test</a>
-                                </span>
-                            </div> -->
                         </div>
                     </article>
                     <article class="post-wrap">
-                        <a href="/little-about-this-theme/" title="Little about this theme">
+                        <a href="#" title="Little about this theme">
                             <div class="featured-media" style="padding-top: 0px; background-image: url(http://placehold.it/350x150);"></div>
                         </a>
                         <div class="post-content">
                             <h2 class="post-title">
-                                <a href="/little-about-this-theme/" data-reveal-id="article-2">A larger blog article</a>
+                                <a href="#" data-reveal-id="article-2">A larger blog article</a>
                             </h2>
                             <div class="post-entry">
                                 <p>Lorem ipsum dolor sit amet, te qui ludus percipit invidunt. Ea dicta legimus mea, diceret deserunt concludaturque ad qui.</p>
@@ -131,12 +135,12 @@
                         </div>
                     </article>
 					<article class="post-wrap">
-                        <a href="/little-about-this-theme/" title="Little about this theme">
+                        <a href="#" title="Little about this theme">
                             <div class="featured-media" style="padding-top: 0px; background-image: url(http://placehold.it/350x150);"></div>
                         </a>
                         <div class="post-content">
                             <h2 class="post-title">
-                                <a href="/little-about-this-theme/" data-reveal-id="article-3">A blog article with more info</a>
+                                <a href="#" data-reveal-id="article-3">A blog article with more info</a>
                             </h2>
                             <div class="post-entry">
                                 <p>Lorem ipsum dolor sit amet, te qui ludus percipit invidunt. Ea dicta legimus mea, diceret deserunt concludaturque ad qui.</p>
@@ -187,7 +191,7 @@
             <div class="mask"></div>
         </div>
 		
-        <section id='section_social' class='fullpage pt-section gray' data-name="Contact">
+        <section id='section_social' class='fullpage pt-section' data-name="Contact">
            <span class='pt-custom-content'><i class="fa fa-2x fa-comments"></i></span>
             <div class="outer">
                 <div class="middle">
@@ -245,14 +249,14 @@
 		
 		<div id="article-2" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 			<h2 id="modalTitle">Awesome. I have it.</h2>
-			<p class="lead">Your couch.  It is mine.</p>
+			<p class="lead">Your couch. It is mine.</p>
 			<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
 			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 		</div>
 		
 		<div id="article-3" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
 			<h2 id="modalTitle">Awesome. I have it.</h2>
-			<p class="lead">Your couch.  It is mine.</p>
+			<p class="lead">Your couch. It is mine.</p>
 			<p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
 			<a class="close-reveal-modal" aria-label="Close">&#215;</a>
 		</div>
@@ -265,21 +269,21 @@
             <h5 class='text-center'>Address: your@address.com</h5>
         </div>
         
-        <script src="javascripts/vendor/jquery.js"></script>
+        <script src="/javascripts/vendor/jquery.js"></script>
         <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> -->
-        <script src="javascripts/foundation.min.js"></script>
-        <script src="javascripts/jquery.mousewheel.js"></script>
-        <script src="javascripts/jquery.jscrollpane.min.js"></script>        
-        <script src="javascripts/jquerypp.custom.js"></script>
-        <script src="javascripts/jquery.bookblock.js"></script>
-        <script src="javascripts/page.js"></script>
+        <script src="/javascripts/foundation.min.js"></script>
+        <script src="/javascripts/jquery.mousewheel.js"></script>
+        <script src="/javascripts/jquery.jscrollpane.min.js"></script>        
+        <script src="/javascripts/jquerypp.custom.js"></script>
+        <script src="/javascripts/jquery.bookblock.js"></script>
+        <script src="/javascripts/page.js"></script>
         <script>
             $(function() {
                 Page.init();
             });
         </script>
         
-        <script src="javascripts/jquery.progresstracker.js"></script>
+        <script src="/javascripts/jquery.progresstracker.js"></script>
         <script>
             (function() {
                 $('body').progressTracker({
