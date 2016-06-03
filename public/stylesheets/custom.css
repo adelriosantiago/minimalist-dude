@@ -263,6 +263,15 @@ i.fa.fa-cx {
 	margin: 10px 5px;
 }
 
+.quote {
+	font-size: 2em;
+}
+
+.quote-author {
+	color: gray;
+	font-size: 0.8em;
+}
+
 /* Sections */
 div.separator {
     width: 100%;
