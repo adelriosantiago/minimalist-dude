@@ -161,42 +161,18 @@ i.fa.fa-cx {
 	transform: scale(1.05);
 }
 
-    .fa.hoves.fa-twitter:hover {
-        color: #2aaae0;
-    }
-    .fa.hoves.fa-linkedin:hover {
-        color: #0274b3;
-    }
-    .fa.hoves.fa-stack-overflow:hover {
-        color: #ffa500;
-    }
-    .fa.hoves.fa-github:hover {
-        color: #000;
-    }
-    .fa.hoves.fa-steam:hover {
-        color: #000;
-    }
-    .fa.hoves.fa-stumbleupon:hover {
-        color: #f04e23;
-    }
-    .fa.hoves.fa-skype:hover {
-        color: #00adf3;
-    }
-	.fa.hoves.fa-pinterest:hover {
-        color: #bd081c;
-    }
-    .fa.hoves.fa-envelope-o:hover {
-        color: #000;
-    }
-    .fa.hoves.fa-book:hover {
-        color: #1d98b7;
-    }
-    .fa.hoves.fa-info-circle:hover {
-        color: #1d98b7;
-    }
-    .fa.hoves.fa-bars:hover {
-        color: #1d98b7;
-    }
+    .fa.hoves.fa-twitter:hover { color: #2aaae0; }
+    .fa.hoves.fa-linkedin:hover { color: #0274b3; }
+    .fa.hoves.fa-stack-overflow:hover { color: #ffa500; }
+    .fa.hoves.fa-github:hover { color: #000; }
+    .fa.hoves.fa-steam:hover { color: #000; }
+    .fa.hoves.fa-stumbleupon:hover { color: #f04e23; }
+    .fa.hoves.fa-skype:hover { color: #00adf3; }
+	.fa.hoves.fa-pinterest:hover { color: #bd081c; }
+    .fa.hoves.fa-envelope-o:hover { color: #000; }
+    .fa.hoves.fa-book:hover { color: #1d98b7; }
+    .fa.hoves.fa-info-circle:hover { color: #1d98b7; }
+    .fa.hoves.fa-bars:hover { color: #1d98b7; }
 
 .fa.link {
     text-shadow: none;
