@@ -2,7 +2,7 @@
 
 Minimalist dude is a minimalist resume web template based on Foundation.
 
-![](http://adelriosantiago.com/articles/images/min-dude.png)
+![](http://adelriosantiago.com/articles/minimalist-dude-html-template/images/min-dude.png)
 
 ### Prerequisites
 
